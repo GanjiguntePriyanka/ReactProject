@@ -1,0 +1,26 @@
+{
+  "name": "reactproject",
+  "version": "1.0.0",
+  "description": "Practice project for react",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GanjiguntePriyanka/ReactProject.git"
+  },
+  "author": "SriPri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GanjiguntePriyanka/ReactProject/issues"
+  },
+  "homepage": "https://github.com/GanjiguntePriyanka/ReactProject#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}
