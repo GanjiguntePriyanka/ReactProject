@@ -6,14 +6,15 @@ import { ReactDOM, createRoot } from "react-dom/client"
 const Header = () => {
     return (
         <div className="header">
-            <div className="logo-container">
-                <img src="https://png.pngtree.com/png-vector/20220623/ourmid/pngtree-food-logo-png-image_5297921.png"></img>
+            <div className="logo">
+                <img id="img" src="https://seeklogo.com/images/C/creative-food-company-logo-2DFFD76692-seeklogo.com.png"></img>
             </div>
-            <div className="nav-container">
+            <div className="nav-items">
                 <ul>
                     <li>Home</li>
                     <li>About us</li>
                     <li>Contact us</li>
+                    <li>Cart</li>
                 </ul>
             </div>
         </div>

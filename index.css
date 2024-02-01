@@ -1,3 +1,19 @@
-#heading{
-    color: blue;
+.header{
+    display: flex;
+    color: darkslategrey;
+    justify-content: space-between; 
+    border: 1px solid rgb(162, 146, 146);
+}
+#img{
+    width: 100px;
+}
+
+.nav-items >ul{
+    font-size: 15px;
+    display: flex;
+    list-style-type: none;
+}
+.nav-items > ul >li {
+    margin: 10px;
+    padding: 10px;
 }
