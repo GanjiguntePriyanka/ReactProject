@@ -26,7 +26,7 @@
 }
 .res-container{
     padding: 10px;
-    height:600px;
+    height:auto;
     border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
@@ -38,10 +38,11 @@
 }
 .res-card{
     width: 200px;
-    height:max-content;
+    height:auto;
     padding: 5px;   
     background-color:lightgray;
     margin: 2px;
+    word-wrap:break-word;
 }
 .res-card:hover{
     border: 1px solid black;
