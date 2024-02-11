@@ -48,3 +48,13 @@
     border: 1px solid black;
     cursor: pointer;
 }
+.btn{
+    margin: 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color:cadetblue;
+    margin: 5px;
+}
