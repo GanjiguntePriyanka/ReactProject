@@ -7,7 +7,7 @@ const RestuarantCard = (props) => {
     const cuisines = resData.cuisines
     const avgRating = resData.avgRating
     const deliveryTime = resData.sla.deliveryTime
-    const cloudinaryImageId = resData.cloudinaryImageId
+    const cloudinaryImageId = resData?.cloudinaryImageId
     return (
         <div className="res-card">
             <img className="res-logo" alt="res-logo" src={CDN_URL +
